@@ -1,3 +1,4 @@
+import IconImg from "../assets/myteam 2.svg"
 
 export default function Header() {
     let style = {
@@ -6,7 +7,7 @@ export default function Header() {
   return (
      <header>
         <div className="container w-277.5 mx-auto flex justify-center items-center py-18.25 px-41.25">
-          <img src="../src/assets/myteam 2.svg" alt="logo" />
+          <img src={IconImg} alt="logo" />
           <nav className="flex items-center gap-10 pl-20 pr-122.25">
             <a href="" className={style.styleLinks}>home</a>
             <a href="" className={style.styleLinks}>about</a>
