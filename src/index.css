@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+@import "tailwindcss";
+
+
+/*variables*/
+
+@theme{
+  --color-midnight-green:  #014E56;
+  --color-light-coral:  #F67E7E;
+  --color-rapture-blue: #79C8C7;
+  --color-police-blue: #2C6269;
+  --color-deep-jungle-reen: #004047;
+  --color-sacramento-state-green: #012F34;
+  --color-dark-green: #002529;
+  --color-white: #ffffff;
+  --font-livvic : "Livvic", sans-serif;
+}
